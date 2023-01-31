@@ -102,6 +102,7 @@ Clone this repository to your desired folder:
 
 - GitHub: [@emekaemmanuel](https://github.com/emekaemmanuel)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/emeka-ugboaja-167820226)
+- Twitter: [@twitterhandle](https://twitter.com/emekaekeoha)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
