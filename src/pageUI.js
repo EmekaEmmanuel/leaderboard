@@ -10,29 +10,7 @@ const displayHtml = () => `
             <button class="refreshBtn btn_style">Refresh</button>
         </header>
 
-        <article class="score_section_article">
-            <li>
-                <span>Name</span>:<span>100</span>
-            </li>
-            <li>
-                <span>Name</span>:<span>20</span>
-            </li>
-            <li>
-                <span>Name</span>:<span>50</span>
-            </li>
-            <li>
-                <span>Name</span>:<span>78</span>
-            </li>
-            <li>
-                <span>Name</span>:<span>125</span>
-            </li>
-            <li>
-                <span>Name</span>:<span>77</span>
-            </li>
-            <li>
-                <span>Name</span>:<span>42</span>
-            </li>
-        </article>
+        <article class="score_section_article"></article>
 
     </section>
 
