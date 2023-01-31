@@ -10,10 +10,14 @@ const createGame = async (gameName) => {
     },
   };
 
-  const getGame = await fetch(createURL, config);
-  const result = await getGame.json();
-  const data = result;
-  return data;
+  try {
+    const getGame = await fetch(createURL, config);
+    const result = await getGame.json();
+    const data = result;
+    return data;
+  } catch (error) {
+    return error;
+  }
 };
 
 export default createGame;

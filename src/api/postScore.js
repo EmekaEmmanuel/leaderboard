@@ -11,10 +11,14 @@ const postScore = async (name, score, iD) => {
       'content-type': 'application/json; charset=UTF-8',
     },
   };
-  const getGame = await fetch(postScoreURL, config);
-  const result = await getGame.json();
-  const data = result;
-  return data;
+  try {
+    const getGame = await fetch(postScoreURL, config);
+    const result = await getGame.json();
+    const data = result;
+    return data;
+  } catch (error) {
+    return error;
+  }
 };
 
 export default postScore;
