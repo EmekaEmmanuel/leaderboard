@@ -6,9 +6,8 @@ const getUsersScores = async (iD) => {
     const data = result;
     return data;
   } catch (error) {
-    return error
+    return error;
   }
-
 };
 
 export default getUsersScores;

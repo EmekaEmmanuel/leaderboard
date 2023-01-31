@@ -17,7 +17,7 @@ const postScore = async (name, score, iD) => {
     const data = result;
     return data;
   } catch (error) {
-    return error
+    return error;
   }
 };
 

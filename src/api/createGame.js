@@ -16,7 +16,7 @@ const createGame = async (gameName) => {
     const data = result;
     return data;
   } catch (error) {
-    return error
+    return error;
   }
 };
 
