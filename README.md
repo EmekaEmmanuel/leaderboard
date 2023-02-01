@@ -1,10 +1,8 @@
-# Leaderboard APP 
-
 <a name="readme-top"></a>
 
 <div align="center">  
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Leaderboard APP </b></h3>
 
 </div> 
 
@@ -59,11 +57,11 @@ This project is a simple program to track our scores; It allows to input scores 
 
 ### Key Features <a name="key-features"></a>
 
-- **[Tells you about about the library.]**
-- **[To display list of books in the library.]**
-- **[To add and delete books to the library.]**
-- **[Single Page application.]**
-- **[ Get the current date and time using online Luxon Library.]**
+- **[Tells you about about the Leaderboard application.]**
+- **[To display all scores in the game.]**
+- **[To add a score and create new game.]**
+- **[Webpack and ES6 modules.]**
+- **[ Get the total score of the gane created and add new score using the leaderboard API]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -141,8 +139,6 @@ Thank you  web.archive.org. for the Awesome Design Template.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./LICENSE) licensed. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
