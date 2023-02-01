@@ -49,7 +49,7 @@ This project is a simple program to track our scores; It allows to input scores 
 
 ## Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://emekaemmanuel.github.io/leaderboard/dist/) 
+- [Live Demo Link](https://emekaemmanuel.github.io/leaderboard/) 
 
 ## Project Presentation <a name="project-presentation"></a>
 
