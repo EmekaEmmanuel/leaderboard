@@ -85,3 +85,32 @@
 .score_section article li:nth-child(even) {
   background-color: #ddd;
 }
+
+@media only screen and (max-width: 768px) {
+  .app_header h1 {
+    font-size: 30px;
+  }
+
+  .main h2 {
+    font-size: 22px;
+  }
+
+  .btn_style {
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main section {
+    width: 100%;
+  }
+}

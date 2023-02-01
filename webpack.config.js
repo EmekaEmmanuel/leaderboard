@@ -12,7 +12,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Emeka\'s Leaderboard',
+      title: 'Leaderboard App',
       template: './src/index.html',
     }),
   ],

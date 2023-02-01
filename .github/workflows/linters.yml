@@ -1,12 +1,13 @@
 name: Linters
 
-on: pull_request
+on: push_request
 
 env:
   FORCE_COLOR: 1
 
 jobs: 
-  webhint:
+
+ webhint:
     name: Webhint
     runs-on: ubuntu-22.04
     steps:
