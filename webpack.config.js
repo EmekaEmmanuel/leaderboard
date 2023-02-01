@@ -3,8 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './src/index.js',
-    // print: './src/print.js',
+    index: './src/index.js', 
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -13,7 +12,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      //   title: 'Output Management',
+        title: `Emeka's Leaderboard`,
       template: './src/index.html',
     }),
   ],
@@ -32,9 +31,9 @@ module.exports = {
       },
     ],
   },
-  //   output: {
-  //     filename: 'main.js',
-  //     path: path.resolve(__dirname, 'dist'),
-  //   },
+    output: {
+      filename: 'main.js',
+      path: path.resolve(__dirname, 'dist'),
+    },
   mode: 'development',
 };
